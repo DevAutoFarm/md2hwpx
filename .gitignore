@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -5,5 +6,32 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+.venv/
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Development tools
+.omc/
+.claude/
+CHECKPOINT.md
+
+# Development and distribution folders (local only)
+.dev/
+.dist/
+
+# Build artifacts
+Scripts/.build/
 *.hwpx
+
+# Compiled binary
+md2hwpx
